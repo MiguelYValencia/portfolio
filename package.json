@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio static site",
+  "scripts": {
+    "start": "serve -l 3000",
+    "dev": "live-server --port=3000 --watch=.",
+    "start:python": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0",
+    "live-server": "^1.2.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
